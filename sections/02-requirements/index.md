@@ -31,7 +31,7 @@ nav_order: 3
 - **Frontend Development**: Utilize HTML, CSS, and JavaScript to create a responsive web application that interacts with the backend seamlessly.
     - **Acceptance Criteria**: The frontend should allow users to input equations and customize graph settings easily. It should dynamically display graphs using a graphing library like Plotly.js, enabling users to visualize their equations.
 - **Graphing Library**: Implement a graphing library (e.g., Plotly.js) to render graphs based on user inputs.
-    -Acceptance Criteria: The library should effectively display mathematical functions and allow customization of graph properties (e.g., color, scale, axis labels). The graphs should update upon user submission without requiring page reloads.
+    - **Acceptance Criteria**: The library should effectively display mathematical functions and allow customization of graph properties (e.g., color, scale, axis labels). The graphs should update upon user submission without requiring page reloads.
 - **Publishing**: The Graph Website package should be published on npm to allow users to install and utilize the tool easily.
     - **Acceptance Criteria**: The package should include clear documentation on installation and usage, making it easy for developers and users to integrate the tool into their projects.
 
