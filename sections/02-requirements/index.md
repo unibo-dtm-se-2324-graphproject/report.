@@ -7,25 +7,31 @@ nav_order: 3
 # Requirements
 
 ## Functional Requirements
-- Message Sending: Users should be able to send text, image, and video messages to individual contacts or groups.
-    - Acceptance Criteria: Messages should be delivered promptly (<5 seconds) and display correctly on recipient devices.
-- User Authentication: Users must authenticate themselves securely using a combination of username/password.
-    - Acceptance Criteria: Successful authentication grants access to the user's contacts and message history.
-- Group Chat Creation: Users should be able to create groups, add/remove participants, and exchange messages within the group.
-    - Acceptance Criteria: Group creation should be intuitive, allowing users to easily invite contacts and manage group settings.
+-**Tutor Recommendations**: Users should be able to input one or two mathematical equations and visualize their graphical representations.
+    - Acceptance Criteria**: The system must allow users to input equations (e.g., y = x^2) and specify X and Y ranges. The corresponding graph should be generated within a few seconds upon submission.
+-**Dual Graphing Capability**: Users can create one or two graphs simultaneously for comparative analysis.
+    - Acceptance Criteria**:  The user interface should allow users to input and visualize two different equations side by side, clearly displaying both graphs with distinct colors or styles.
+-**Static Graph Updates**:Users can modify equations and axis ranges, but the graphs will refresh only after the user submits the new inputs.
+    - **Acceptance Criteria**: Changes made to the input fields should require a submit action to generate and display the updated graphs.
 
-## Non-Functional Requirements:
-- Security: The application must encrypt all message content and user data during transmission and storage.
-    - Acceptance Criteria: Security audits should confirm compliance with encryption standards and absence of vulnerabilities.
-- Scalability: The system should handle a large number of concurrent users and messages without significant degradation in performance.
-    - Acceptance Criteria: Load testing should demonstrate stable performance under peak usage conditions (e.g., 1,000 concurrent users).
-- Availability: The service should be available 24/7 with minimal downtime for maintenance or upgrades.
-    - Acceptance Criteria: Monthly uptime should exceed 99.9%, measured by monitoring service availability.
+-**User Interface**:The application must provide an intuitive and user-friendly interface for both graph input and visualization.
+    - **Acceptance Criteria**:  Users should find the interface straightforward.
 
-## Implementation Requirements:
-- Backend API: Develop RESTful APIs using a scalable framework like Node.js, allowing seamless communication between frontend and backend.
-    - Acceptance Criteria: APIs should be well-documented and adhere to REST principles, facilitating easy integration with frontend clients.
-- Responsive Web Design: Implement frontend web using modern frameworks like React or Angular, ensuring cross-browser compatibility and responsiveness.
-    - Acceptance Criteria: Web interface should adapt gracefully to different screen sizes and device orientations.
-- Mobile App Development: Build mobile apps for iOS and Android platforms using native development.
-    - Acceptance Criteria: Apps should provide a smooth user experience, leveraging platform-specific features while maintaining consistency across platforms.
+## Non-Functional Requirements
+-**Performance**: The application should handle multiple users without significant latency.
+    -**Acceptance Criteria**: The system should maintain a quick response time.
+
+-**Usability**: The application must cater to a diverse audience, including high school students, college learners, and educators.
+    
+
+Implementation Requirements
+--**Backend Development**: The backend should be developed using Node.js and Express to handle graph generation requests and manage user inputs effectively.
+    --**Acceptence Criteria**: The API should be designed to process user inputs for equations and range specifications, returning the necessary data to generate the graphs. The backend should be able to serve the static files required for the frontend and facilitate any necessary data handling.
+-**Frontend Development**: Utilize HTML, CSS, and JavaScript to create a responsive web application that interacts with the backend seamlessly.
+    -Acceptance Criteria: The frontend should allow users to input equations and customize graph settings easily. It should dynamically display graphs using a graphing library like Plotly.js, enabling users to visualize their equations.
+--**Graphing Library**: Implement a graphing library (e.g., Plotly.js) to render graphs based on user inputs.
+    -Acceptance Criteria: The library should effectively display mathematical functions and allow customization of graph properties (e.g., color, scale, axis labels). The graphs should update upon user submission without requiring page reloads.
+-**Publishing**: The Graph Website package should be published on npm to allow users to install and utilize the tool easily.
+    -**Acceptance Criteria**: The package should include clear documentation on installation and usage, making it easy for developers and users to integrate the tool into their projects.
+
+## notes: I added the implementation requirements as they are required for this course even though it is usually a management requirement. 
