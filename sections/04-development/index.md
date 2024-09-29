@@ -7,7 +7,7 @@ nav_order: 5
 # Development
 
 ## DVCS
-To track the development of our project, I used a Github repository and created a dedicated organization called `unibo-dtm-se-2324-graphProject`. The main repository is `Artifact.`, the repository follows a straightforward branching strategy with a single main branch, which contains the stable release of the project. All changes, including new features and bug fixes, are committed directly to this branch.
+To track the development of our project, I used a Github repository and created a dedicated organization called `unibo-dtm-se-2324-graphproject`. The main repository is `graphproject`, the repository follows a straightforward branching strategy with a single main branch, which contains the stable release of the project. All changes, including new features and bug fixes, are committed directly to this branch.
 
 Commits were written following the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) approach. A commit is therefore written in the following format:
 
