@@ -1,5 +1,5 @@
 ---
-title: Home
+title: GraphProject
 layout: home
 has_children: false
 nav_order: 1
