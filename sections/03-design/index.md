@@ -31,9 +31,9 @@ User interaction with the Graph Website is designed to be intuitive and straight
 
 The interactive features include:
 
--Input fields for entering one or two equations.
--Controls for specifying the X and Y ranges for graph plotting.
--Buttons to submit equations and trigger graph generation.
+- Input fields for entering one or two equations.
+- Controls for specifying the X and Y ranges for graph plotting.
+- Buttons to submit equations and trigger graph generation.
 
 As users interact with the application, the system provides immediate visual feedback, allowing them to see how changes in equations or ranges affect the graphs in real time. This responsive design enhances the user experience by facilitating an engaging learning process.
 
@@ -55,4 +55,4 @@ The data handling within the Graph Website is minimal since the primary function
 
 - **Graph Data**: Data representing the X and Y coordinates for the graphs is generated based on the mathematical equations provided by the users. This data is transient and is only held in memory during the session.
 
--**Stateless Design**: The application follows a stateless design approach, meaning that it does not retain user data between sessions. Each interaction is independent, allowing users to start fresh without previous inputs affecting new graph generations.
+- **Stateless Design**: The application follows a stateless design approach, meaning that it does not retain user data between sessions. Each interaction is independent, allowing users to start fresh without previous inputs affecting new graph generations.
