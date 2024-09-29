@@ -8,9 +8,9 @@ nav_order: 3
 
 ## Functional Requirements
 - **Tutor Recommendations**: Users should be able to input one or two mathematical equations and visualize their graphical representations.
-    - Acceptance Criteria**: The system must allow users to input equations (e.g., y = x^2) and specify X and Y ranges. The corresponding graph should be generated within a few seconds upon submission.
+    - **Acceptance Criteria**: The system must allow users to input equations (e.g., y = x^2) and specify X and Y ranges. The corresponding graph should be generated within a few seconds upon submission.
 - **Dual Graphing Capability**: Users can create one or two graphs simultaneously for comparative analysis.
-    - Acceptance Criteria**:  The user interface should allow users to input and visualize two different equations side by side, clearly displaying both graphs with distinct colors or styles.
+    - **Acceptance Criteria**:  The user interface should allow users to input and visualize two different equations side by side, clearly displaying both graphs with distinct colors or styles.
 - **Static Graph Updates**:Users can modify equations and axis ranges, but the graphs will refresh only after the user submits the new inputs.
     - **Acceptance Criteria**: Changes made to the input fields should require a submit action to generate and display the updated graphs.
 
