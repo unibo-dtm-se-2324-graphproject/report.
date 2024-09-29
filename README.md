@@ -41,7 +41,7 @@ Usage
 1) Open the application in your browser.
 2) Enter a mathematical equation in the designated input field.
 3) Specify the desired X and Y range values.
-4) Click on the "Generate Graph" button to visualize the equation.
+4) Click on the "Plot Graph" button to visualize the equation.
 
 **Testing**
 
