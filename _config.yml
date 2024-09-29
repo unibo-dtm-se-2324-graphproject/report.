@@ -1,0 +1,12 @@
+title: GraphProject
+description: A documentation site for the GraphProject tutor recommendation system.
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "light"
+search_enabled: true
+plugins:
+  - jekyll-remote-theme
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
