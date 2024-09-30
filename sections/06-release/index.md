@@ -12,7 +12,9 @@ The Graph Website is released and distributed through the npm (Node Package Mana
 
 - Versioning: Each release follows the Semantic Versioning (SemVer) principles, ensuring that users are informed of the nature of changes made. The versioning scheme allows users to understand whether updates include breaking changes (MAJOR), new features (MINOR), or bug fixes (PATCH).
 
-- Publishing to npm: The project is published to the npm registry using the command npm publish --access public. This command uploads the latest version of the project, along with its dependencies and metadata, making it available for public access.
+- Publishing to npm: The project is published to the npm registry using the command
+  npm publish --access public
+  This command uploads the latest version of the project, along with its dependencies and metadata, making it available for public access.
 
 - Continuous Integration/Continuous Deployment (CI/CD): The project utilizes GitHub Actions to automate the publishing process. Each time code is merged into the main branch, the CI/CD pipeline automatically runs tests, builds the project, and publishes it to npm if all checks pass. This ensures that the most stable and tested version of the application is available to users.
 
