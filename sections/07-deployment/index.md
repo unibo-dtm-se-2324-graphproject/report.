@@ -17,21 +17,24 @@ To deploy and access the Graph Website, follow these steps:
 git clone https://github.com/unibo-dtm-se-2324-graphproject/artifact.git 
 
 - Navigate to the project directory:
-
+  
+```bash
 cd graphproject
-
+```
 2. Install Dependencies
 
 - Once you are in the project directory, install the necessary dependencies by running:
-
+  
+```bash
 npm install
-
+```
 3. Run the Website:
 
 - Start the server to make the application available by executing:
-
+  
+```bash
 node server.js
-
+```
 - This command will initiate the server, allowing you to access the Graph Website through your web browser at:
 
 http://localhost:3000
