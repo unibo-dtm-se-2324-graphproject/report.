@@ -28,13 +28,18 @@ To set up the project locally, follow these steps:
    git clone https://github.com/unibo-dtm-se-2324-graphproject/artifact.git 
 
 2) Navigate to the project directory:
-cd graphproject
+
+```bash
+   cd graphproject
 
 3)Install dependencies:
-npm install
+```bash
+   npm install
 
 4)Run the application:
-node server.js
+```bash
+   node server.js
+
 
 Usage
 
