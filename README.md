@@ -25,21 +25,23 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/unibo-dtm-se-2324-graphproject/artifact.git 
+   git clone https://github.com/unibo-dtm-se-2324-graphproject/artifact-.git
+   ```
 
-2) Navigate to the project directory:
+2. **Navigate to the project directory**:
+   ```bash
+   cd artifact-
+   ```
 
-```bash
-   cd graphproject
-
-3)Install dependencies:
-```bash
+3. **Install dependencies**:
+   ```bash
    npm install
+   ```
 
-4)Run the application:
-```bash
+4. **Run the application**:
+   ```bash
    node server.js
-
+   ```
 
 Usage
 
