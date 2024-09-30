@@ -25,7 +25,7 @@ This project, **GraphProject**, aims to develop a tutor recommendation system th
 - [8. CI/CD](sections/08-cicd/index.md)
 - [9. User Guide](sections/09-userguide/index.md)
 - [10. Developer Guide](sections/10-developerguide/index.md)
-- [12. Future Work](sections/12-futurework/index.md)
+- [11. Future Work](sections/12-futurework/index.md)
 
 ## Overview
 
