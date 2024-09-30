@@ -35,4 +35,4 @@ nav_order: 3
 - **Publishing**: The Graph Website package should be published on npm to allow users to install and utilize the tool easily.
     - **Acceptance Criteria**: The package should include clear documentation on installation and usage, making it easy for developers and users to integrate the tool into their projects.
 
-## notes: I added the implementation requirements as they are required for this course even though it is usually a management requirement. 
+ **notes:** I added the implementation requirements as they are required for this course even though it is usually a management requirement. 
