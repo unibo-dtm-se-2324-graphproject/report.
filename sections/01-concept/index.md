@@ -4,7 +4,7 @@ has_children: false
 nav_order: 2
 ---
 
-## Concept
+#Concept
 
 Introduction
 
@@ -18,7 +18,6 @@ The Graph Website is an interactive platform designed to enable users to create,
 **Description**: Users can input mathematical equations and visualize their graphical representations.
 
 **Main Flow**:
-
 1. The user opens the Graph Project web application.
 2. The user inputs a mathematical equation in the designated input field.
 3. The user specifies the range for the X and Y axes.
