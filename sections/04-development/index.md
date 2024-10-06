@@ -35,13 +35,13 @@ Example of commit messages:
 
 ## Implementation details
 
-Libraries 
+**Libraries**
 
 - *math.js: A powerful library for parsing and evaluating mathematical expressions, enabling dynamic calculations of user-defined equations within the application.
 
 - Plotly: An interactive graphing library that allows for the creation of dynamic and visually appealing plots.
 
-API 
+**API**
 
 The Graph Project utilizes a RESTful API built with Express.js, allowing for efficient handling of user requests related to mathematical graph generation and visualization. This API facilitates the communication between the front end and the back end, managing input data from users, such as equations and graph parameters. By employing standard HTTP methods, the API enables the seamless processing of requests and responses, ensuring a smooth user experience. 
 
@@ -60,25 +60,25 @@ Version control systems are used for tracking changes in the project’s codebas
 - npm:
 The package manager for JavaScript manages project dependencies and facilitates the installation of libraries, such as math.js and Plotly, essential for the functionality of the application.
 
-Programming Languages:
+**Programming Languages:**
 
 1. JavaScript: The primary language used for both the backend (Node.js) and frontend components of the Graph Project.
 2. HTML: Used for structuring the web pages and content in the front end of the application.
 3. CSS: Employed for styling the frontend components, enhancing the visual appearance and user experience of the web application.
 
-Dependencies
+**Dependencies**
 
 - Express: ^4.21.0 is a dependency in my project because it serves as the foundation for my server-side application, handling routing and requests efficiently. It enables me to build a robust API for my graph visualization system, ensuring seamless communication between the frontend and backend.
 
 - imane01-graph:  "1.0.5"  package is used in your project to provide functionalities for generating and visualizing mathematical graphs
 
-DevDependencies:
+**DevDependencies:**
 
-eslint: For linting your JavaScript code to ensure code quality.
-eslint-plugin-react: A plugin for ESLint to lint React code.
-globals: Provides global variable definitions for various environments.
-jest: A testing framework for running unit tests.
-supertest: A library for testing HTTP servers in Node.js.
+- eslint: For linting your JavaScript code to ensure code quality.
+- eslint-plugin-react: A plugin for ESLint to lint React code.
+- globals: Provides global variable definitions for various environments.
+- jest: A testing framework for running unit tests.
+- supertest: A library for testing HTTP servers in Node.js.
 
 - Throughout the development process, several key lessons were learned and I am personally proud of:
 
