@@ -101,7 +101,7 @@ To fully develop and launch the platform, we anticipate needing a total initial 
 I also anticipate a secondary investment of €5,000 in the second year to scale the platform and enhance features, including adding user authentication and scaling the API to support more users.
 
 **Break-Even Analysis**
-With our cost structure and projected revenue, we expect to break even by month 10 of operation, with positive cash flow by the end of Year 1.
+With the cost structure and projected revenue, it is expected to break even by month 10 of operation, with positive cash flow by the end of Year 1.
 
 Total Revenue (Year 1): €18,000
 Total Ongoing Costs (Year 1): €6,300
