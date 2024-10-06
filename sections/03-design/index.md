@@ -10,7 +10,7 @@ This chapter explains the strategies used to meet the requirements identified in
 
 ## Architecture
 
-The architecture of the Graph Website is based on a client-server model, where the frontend and backend components are decoupled to allow for scalable and maintainable development. The frontend is built using HTML, CSS, and JavaScript, leveraging a framework such as React or Vue.js for dynamic user interactions. The backend is developed using Node.js with Express, responsible for processing user requests and serving the necessary static files, such as HTML, CSS, and JavaScript. This architecture enables seamless communication between the client and server, ensuring quick response times and efficient data handling.
+The architecture of the Graph Website is based on a client-server model, where the frontend and backend components are decoupled to allow for scalable and maintainable development. The frontend is built using HTML, CSS, and JavaScript. The backend is developed using Node.js with Express, responsible for processing user requests and serving the necessary static files. This architecture enables seamless communication between the client and server, ensuring quick response times and efficient data handling.
 
 
 
@@ -51,8 +51,8 @@ The behavior of the application is governed by well-defined user actions and sys
 
 The data handling within the Graph Website is minimal since the primary function is to visualize equations rather than store user data persistently. However, the application does involve the following data-related aspects:
 
-- **User Input**: The application captures user input for equations and ranges, which are processed in real time to generate graphs.
+- **User Input**: The application captures user input for equations and ranges, which are processed in real-time to generate graphs.
 
 - **Graph Data**: Data representing the X and Y coordinates for the graphs is generated based on the mathematical equations provided by the users. This data is transient and is only held in memory during the session.
 
-- **Stateless Design**: The application follows a stateless design approach, meaning that it does not retain user data between sessions. Each interaction is independent, allowing users to start fresh without previous inputs affecting new graph generations.
+- **Stateless Design**: The application follows a stateless design approach, meaning it does not retain user data between sessions. Each interaction is independent, allowing users to start fresh without previous inputs affecting new graph generations.
