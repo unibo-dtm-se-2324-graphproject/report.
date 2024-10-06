@@ -42,24 +42,25 @@ The Graph Website not only serves individual users but can also be integrated in
 Overall, the Graph Website stands as a significant resource in the realm of education, promoting a deeper appreciation for mathematics through visual exploration and interactive learning experiences.
 
 ### Cost Analysis and Financial Model
-1. Initial Development and Setup Costs
+
+**1. Initial Development and Setup Costs**
 The initial phase of developing the Graph Website will involve costs for development, hosting, and maintenance. Here's a breakdown:
 
-Website Development: €5,000 (for hiring developers and designers)
-Hosting Services: €50/month (~€600/year)
-Domain Name Registration: €20/year
-Marketing and Launch: €2,000 (advertisements, social media campaigns)
-Software and Tools: €1,000 (licenses, graph plotting tools, etc.)
-Total Initial Costs: €8,620
+-Website Development: €5,000 (for hiring developers and designers)
+-Hosting Services: €50/month (~€600/year)
+-Domain Name Registration: €20/year
+-Marketing and Launch: €2,000 (advertisements, social media campaigns)
+-Software and Tools: €1,000 (licenses, graph plotting tools, etc.)
+-Total Initial Costs: €8,620
 
 **2. Ongoing Operational Costs**
 These will include costs associated with maintaining and improving the website, marketing, and any backend infrastructure:
 
-Server Maintenance and Hosting: €600/year
-Customer Support: €1,200/year
-Marketing and Advertising: €1,500/year (continuous campaigns)
-Software Updates and Development: €3,000/year
-Total Ongoing Costs: €6,300/year
+-Server Maintenance and Hosting: €600/year
+-Customer Support: €1,200/year
+-Marketing and Advertising: €1,500/year (continuous campaigns)
+-Software Updates and Development: €3,000/year
+-Total Ongoing Costs: €6,300/year
 
 **Revenue Generation Model**
 I plan to generate revenue through advertisements:
