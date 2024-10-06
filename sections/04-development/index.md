@@ -27,18 +27,19 @@ Example of commit messages:
 - **refactor(server)**: update server setup for testing compatibility
 - **fix(package)**: rename the package to a unique name for publishing
 
-Frequency and Granularity
--Atomic Commits: Changes to the Graph Website project are committed regularly in small, focused increments, which simplifies tracking the project's development and allows for easy reversion if necessary.
+**Frequency and Granularity**
 
--Granularity: Each commit corresponds to a specific logical update, such as adding, fixing bugs in the code, or enhancing the user interface, ensuring that modifications are clearly defined and manageable.
+- Atomic Commits: Changes to the Graph Website project are committed regularly in small, focused increments, which simplifies tracking the project's development and allows for easy reversion if necessary.
+
+- Granularity: Each commit corresponds to a specific logical update, such as adding, fixing bugs in the code, or enhancing the user interface, ensuring that modifications are clearly defined and manageable.
 
 ## Implementation details
 
 Libraries 
 
--*math.js: A powerful library for parsing and evaluating mathematical expressions, enabling dynamic calculations of user-defined equations within the application.
+- *math.js: A powerful library for parsing and evaluating mathematical expressions, enabling dynamic calculations of user-defined equations within the application.
 
--Plotly: An interactive graphing library that allows for the creation of dynamic and visually appealing plots.
+- Plotly: An interactive graphing library that allows for the creation of dynamic and visually appealing plots.
 
 API 
 
@@ -48,15 +49,15 @@ Tools and Platforms
 
 Tools and Platforms
 
--Express.js: A minimal and flexible web application framework that provides robust features for building APIs. It simplifies routing and middleware integration, making it easier to manage server responses and user requests.
+- Express.js: A minimal and flexible web application framework that provides robust features for building APIs. It simplifies routing and middleware integration, making it easier to manage server responses and user requests.
 
--Visual Studio Code:
+- Visual Studio Code:
 An integrated development environment (IDE) that provides essential tools for coding, debugging, and version control. It enhances productivity with features like syntax highlighting and extensions tailored for JavaScript development.
 
--Git and GitHub:
+- Git and GitHub:
 Version control systems are used for tracking changes in the project’s codebase and facilitating collaboration. GitHub serves as a remote repository for code storage, issue tracking, and project management.
 
--npm:
+- npm:
 The package manager for JavaScript manages project dependencies and facilitates the installation of libraries, such as math.js and Plotly, essential for the functionality of the application.
 
 Programming Languages:
@@ -67,9 +68,9 @@ Programming Languages:
 
 Dependencies
 
--Express: ^4.21.0 is a dependency in my project because it serves as the foundation for my server-side application, handling routing and requests efficiently. It enables me to build a robust API for my graph visualization system, ensuring seamless communication between the frontend and backend.
+- Express: ^4.21.0 is a dependency in my project because it serves as the foundation for my server-side application, handling routing and requests efficiently. It enables me to build a robust API for my graph visualization system, ensuring seamless communication between the frontend and backend.
 
--imane01-graph:  "1.0.5"  package is used in your project to provide functionalities for generating and visualizing mathematical graphs
+- imane01-graph:  "1.0.5"  package is used in your project to provide functionalities for generating and visualizing mathematical graphs
 
 DevDependencies:
 
