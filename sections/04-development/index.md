@@ -43,11 +43,9 @@ Example of commit messages:
 
 **API**
 
-The Graph Project utilizes a RESTful API built with Express.js, allowing for efficient handling of user requests related to mathematical graph generation and visualization. This API facilitates the communication between the front end and the back end, managing input data from users, such as equations and graph parameters. By employing standard HTTP methods, the API enables the seamless processing of requests and responses, ensuring a smooth user experience. 
+The Graph Project utilizes an API built with Express.js, designed for handling user requests related to mathematical graph generation and visualization. This API facilitates communication between the front end and the back end, managing input data from users, such as equations and graph parameters. 
 
 Tools and Platforms 
-
-Tools and Platforms
 
 - Express.js: A minimal and flexible web application framework that provides robust features for building APIs. It simplifies routing and middleware integration, making it easier to manage server responses and user requests.
 
@@ -70,11 +68,10 @@ The package manager for JavaScript manages project dependencies and facilitates 
 
 - Express: ^4.21.0 is a dependency in my project because it serves as the foundation for my server-side application, handling routing and requests efficiently. It enables me to build a robust API for my graph visualization system, ensuring seamless communication between the frontend and backend.
 
-- imane01-graph:  "1.0.5"  package is used in your project to provide functionalities for generating and visualizing mathematical graphs
 
 **DevDependencies:**
 
-- eslint: For linting your JavaScript code to ensure code quality.
+- eslint: For linting JavaScript code to ensure code quality.
 - eslint-plugin-react: A plugin for ESLint to lint React code.
 - globals: Provides global variable definitions for various environments.
 - jest: A testing framework for running unit tests.
