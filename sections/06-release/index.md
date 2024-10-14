@@ -43,7 +43,7 @@ The Graph Project is licensed under the MIT License. This choice was made to enc
 
 Choice of the Versioning Schema
 
-For versioning the Graph Project, we utilize Semantic Versioning (SemVer), which follows the format MAJOR.MINOR.PATCH:
+For versioning the Graph Project, I utilize Semantic Versioning (SemVer), which follows the format MAJOR.MINOR.PATCH:
 
 - MAJOR version increments signify breaking changes that might disrupt existing functionality. For example, if a future version alters how users interact with the graphing features, the MAJOR version will be incremented.
 - MINOR version increments indicate the addition of new features in a manner that is backward-compatible. An example would be the introduction of a new graph type that does not affect existing functionality.
