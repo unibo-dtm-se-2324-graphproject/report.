@@ -11,7 +11,15 @@ nav_order: 1
 
 ## Abstract
 
-This project, **GraphProject**, aims to develop a tutor recommendation system that allows users to find the best tutors based on preferences such as age, mode of teaching (remote or in-person), and location. The system features a graph plotting tool where users can input equations and specify X and Y ranges for visualization. It includes an API for scalable tutor recommendations and a CI/CD pipeline to automate the testing, building, and deployment processes. This documentation provides a detailed overview of the design, development, and testing processes involved in the project.
+GraphProject is an intuitive and user-friendly system designed to generate and visualize mathematical graphs. It empowers users—particularly students and educators—to input mathematical equations and specify range values, facilitating effective visualization of data. By transforming complex mathematical expressions into clear graphical representations, GraphProject serves as an essential educational tool that enhances understanding and engagement with mathematical concepts.
+
+The core features of GraphProject include an easy-to-use interface where users can enter various equations, such as \(y = x^2\), and adjust the X and Y ranges to generate accurate graphs. This interactivity allows users to experiment with different equations and observe immediate visual results, making the learning process dynamic and engaging. 
+
+GraphProject’s architecture comprises a frontend component that provides a seamless user experience for inputting equations and viewing graphs, along with a backend system that handles requests related to graph generation. 
+
+In addition, the project incorporates a CI/CD pipeline that automates testing, building, and deployment processes, enhancing the overall efficiency of development. This streamlined approach allows for quick updates and iterations based on user feedback, ensuring the application remains relevant and effective in meeting users’ needs.
+
+By focusing on accessibility and usability, GraphProject aims to foster a greater appreciation for mathematics and its applications in various fields. Ultimately, this project stands as a testament to the importance of intuitive design in educational tools, providing users with the resources necessary to explore and visualize mathematical concepts confidently.
 
 ## Table of Contents
 
@@ -27,9 +35,6 @@ This project, **GraphProject**, aims to develop a tutor recommendation system th
 - [10. Developer Guide](sections/10-devguide/index.md)
 - [11. Future Work](sections/12-future/index.md)
 
-## Overview
-
-The GraphProject focuses on providing a smooth user experience in finding suitable tutors and visualizing mathematical equations through an intuitive web interface. The use of graph plotting tools and API integration ensures scalability, while the CI/CD pipeline adds efficiency to the development workflow. 
 
 ## Disclaimer about the project:
 During the preparation of this work, I used CHATgpt to write codes because I have a management background. After using this tool/service, I reviewed and edited the content as needed and I take full responsibility for the content of the final report/artifact. However, I put a lot of effort into learning and starting from the basics by looking at class materials and resources provided online, it was a difficult journey but I believe that was a great opportunity to learn, especially because it was totally an indivudal project.
