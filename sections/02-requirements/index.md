@@ -7,7 +7,7 @@ nav_order: 3
 # Requirements
 
 ## Functional Requirements
-- **Tutor Recommendations**: Users should be able to input one or two mathematical equations and visualize their graphical representations.
+- **Rapresentation**: Users should be able to input one or two mathematical equations and visualize their graphical representations.
     - **Acceptance Criteria**: The system must allow users to input equations (e.g., y = x^2) and specify X and Y ranges. The corresponding graph should be generated within a few seconds upon submission.
 - **Dual Graphing Capability**: Users can create one or two graphs simultaneously for comparative analysis.
     - **Acceptance Criteria**:  The user interface should allow users to input and visualize two different equations side by side, clearly displaying both graphs with distinct colors or styles.
