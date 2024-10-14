@@ -22,7 +22,7 @@ The application employs a modular approach, where each component of the system i
 
 - User Input Module: Manages user inputs for equations, X and Y ranges, and ensures that the data is validated before being processed. This module ensures a smooth user experience by providing immediate feedback for invalid entries.
 
-- API Module: Exposes RESTful endpoints for the frontend to interact with the backend. This includes endpoints for serving the main page, returning static assets, and handling user-generated data.
+- API Module: Provides endpoints for the frontend to interact with the backend, including serving the main page and returning static assets.
 
 
 ## Interaction
