@@ -17,7 +17,7 @@ The core features of GraphProject include an easy-to-use interface where users c
 
 GraphProject’s architecture comprises a frontend component that provides a seamless user experience for inputting equations and viewing graphs, along with a backend system that handles requests related to graph generation. 
 
-In addition, the project incorporates a CI/CD pipeline that automates testing, building, and deployment processes, enhancing the overall efficiency of development. This streamlined approach allows for quick updates and iterations based on user feedback, ensuring the application remains relevant and effective in meeting users’ needs.
+In addition, the project incorporates a CI/CD pipeline that automates testing, building, and deployment processes, enhancing the overall efficiency of development. 
 
 By focusing on accessibility and usability, GraphProject aims to foster a greater appreciation for mathematics and its applications in various fields. Ultimately, this project stands as a testament to the importance of intuitive design in educational tools, providing users with the resources necessary to explore and visualize mathematical concepts confidently.
 
