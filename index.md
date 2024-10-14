@@ -32,8 +32,7 @@ This project, **GraphProject**, aims to develop a tutor recommendation system th
 The GraphProject focuses on providing a smooth user experience in finding suitable tutors and visualizing mathematical equations through an intuitive web interface. The use of graph plotting tools and API integration ensures scalability, while the CI/CD pipeline adds efficiency to the development workflow. 
 
 ## Disclaimer about the project:
-During the preparation of this work me, the author, I used [CHATgpt] in order to write codes because I have a management background and no prior coding experiences. 
-After using this tool/service, I reviewed and edited the content as needed and take(s) full responsibility for the content of the final report/artifact.
+During the preparation of this work, I used CHATgpt to write codes because I have a management background. After using this tool/service, I reviewed and edited the content as needed and I take full responsibility for the content of the final report/artifact. However, I put a lot of effort into learning and starting from the basics by looking at class materials and resources provided online, it was a difficult journey but I believe that was a great opportunity to learn, especially because it was totally an indivudal project.
 
 ## License
 
