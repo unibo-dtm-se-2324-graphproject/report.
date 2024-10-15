@@ -4,55 +4,60 @@ has_children: false
 nav_order: 4
 ---
 
-## Design
+**Architecture**
 
-This chapter explains the strategies used to meet the requirements identified in the analysis
+The Graph Website follows a Layered Architecture, which provides clear separation between the frontend and backend components, allowing for scalability, maintainability, and flexibility. This architecture is visually represented in the **Component Diagram**, which shows how the various layers interact with each other.
 
-## Architecture
+sections/03-design/diagrams/component_diagram.png
 
-The architecture of the Graph Website is based on a client-server model, where the frontend and backend components are decoupled to allow for scalable and maintainable development. The frontend is built using HTML, CSS, and JavaScript. The backend is developed using Node.js with Express, responsible for processing user requests and serving the necessary static files. This architecture enables seamless communication between the client and server, ensuring quick response times and efficient data handling.
+**Frontend**
 
+The Frontend layer is responsible for managing user interactions and visualizing the results. Built using HTML, CSS, and JavaScript, the frontend offers users an intuitive interface to input equations and graph ranges. The GraphTool UI, as shown in the Component Diagram, directly interacts with external libraries like Math.js and Plotly.js to process the user inputs and render the graphs dynamically in the browser.
 
+- GraphTool UI: Handles the main interface for users, including equation input and graph plotting.
+- Equation Parser: Evaluates the mathematical equations input by the user.
+- Graph Plotter: Uses Plotly.js to render graphical representations of the input equations.
+  
+The interaction between these components is depicted in the **Sequence Diagram**, which shows how user inputs flow through the system, starting from the user interface, to equation evaluation, and ending with graph rendering.
 
-## Modelling
+sections/03-design/diagrams/sequence_diagram.png
 
-The application employs a modular approach, where each component of the system is designed to perform specific functions. The modeling focuses on the following key areas:
+- Class Design
 
-- Graphing Module: Handles the input of mathematical equations and the generation of their graphical representations. It uses a library like Plotly.js to render graphs based on user input.
+The **Class Diagram** represents the structure of the main components in the Graph Website. It shows how different classes interact to provide the core functionalities, such as handling user inputs, processing equations, and generating graphs.
 
-- User Input Module: Manages user inputs for equations, X and Y ranges, and ensures that the data is validated before being processed. This module ensures a smooth user experience by providing immediate feedback for invalid entries.
+- User Class: Represents the user interacting with the system, allowing them to input equations and ranges.
+  
+- GraphTool Class: This class manages the overall graphing process, including handling user inputs, parsing equations, and plotting the graphs.
+  
+- Equation Class: Handles the parsing and evaluation of user-inputted equations.
+  
+- Plotter Class: Responsible for rendering the graph based on the parsed equation and range.
+  
+- Range Class: Manages the input of the X and Y axis ranges for graph plotting.
 
-- API Module: Provides endpoints for the frontend to interact with the backend, including serving the main page and returning static assets.
+sections/03-design/diagrams/class_diagram.png
 
+This Class Diagram visually breaks down the modular structure of the system, making it easier to understand how each part contributes to the overall functionality.
 
-## Interaction
+**Backend**
 
-User interaction with the Graph Website is designed to be intuitive and straightforward. Upon accessing the application, users are presented with a clean interface where they can input their equations. 
+Though currently minimal in the implementation, the Backend layer, as depicted in the Component Diagram, provides support for static file serving and processing potential requests. Built using Node.js and Express, the backend ensures smooth communication between the client and server when necessary. 
 
-The interactive features include:
+- API Module: Responsible for managing any server requests, although for now, the primary function is serving static assets.
+  
+The Component Diagram shows how the frontend communicates with this API module when required. Even though the backend’s role is minimal in the current version, this architectural layer lays the foundation for future scalability.
 
-- Input fields for entering one or two equations.
-- Controls for specifying the X and Y ranges for graph plotting.
-- Buttons to submit equations and trigger graph generation.
+**Layered Architecture**
 
-As users interact with the application, the system provides immediate visual feedback, allowing them to see how changes in equations or ranges affect the graphs in real time. This responsive design enhances the user experience by facilitating an engaging learning process.
+In this layered architecture:
 
-## Behaviour
+- Presentation Layer (Frontend): Manages everything the user sees and interacts with, from the GraphTool UI to the dynamic graphing capabilities using Plotly.js.
+  
+- Business Logic Layer: Handles the logic behind processing equations and ranges. In the current implementation, most of this is handled in the frontend via JavaScript and Math.js.
+- 
+- Data Access Layer (Backend): The backend layer processes incoming requests and serves files but can be extended for more complex tasks.
 
-The behavior of the application is governed by well-defined user actions and system responses. Key behaviors include:
+This separation of concerns ensures that the system is modular and easy to maintain. As shown in the **State Diagram**, the frontend moves through several states—WaitingForInput, ProcessingGraph, and DisplayGraph—to ensure the smooth handling of user actions and graph generation.
 
-- **Graph Generation**: When users submit equations, the application processes the inputs and generates the corresponding graphs. If users modify their equations or ranges, they must re-submit their inputs to refresh the graphs.
-
-- **Error Handling**: The system incorporates validation checks for user inputs, displaying error messages when invalid equations are entered. This prevents users from experiencing crashes or undefined behavior.
-
-- **Dynamic Updates**: The application updates the graphs dynamically without requiring page reloads, creating a seamless experience for users as they manipulate their inputs.
-
-## Data-related aspects
-
-The data handling within the Graph Website is minimal since the primary function is to visualize equations rather than store user data persistently. However, the application does involve the following data-related aspects:
-
-- **User Input**: The application captures user input for equations and ranges, which are processed in real-time to generate graphs.
-
-- **Graph Data**: Data representing the X and Y coordinates for the graphs is generated based on the mathematical equations provided by the users. This data is transient and is only held in memory during the session.
-
-- **Stateless Design**: The application follows a stateless design approach, meaning it does not retain user data between sessions. Each interaction is independent, allowing users to start fresh without previous inputs affecting new graph generations.
+sections/03-design/diagrams/state_diagram.png
