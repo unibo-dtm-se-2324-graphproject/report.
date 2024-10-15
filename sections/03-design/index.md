@@ -8,7 +8,7 @@ nav_order: 4
 
 The Graph Website follows a Layered Architecture, which provides clear separation between the frontend and backend components, allowing for scalability, maintainability, and flexibility. This architecture is visually represented in the **Component Diagram**, which shows how the various layers interact with each other.
 
-![Components diagram] (sections/03-design/diagrams/component_diagram.png)
+![Components diagram](sections/03-design/diagrams/component_diagram.png)
 
 **Frontend**
 
