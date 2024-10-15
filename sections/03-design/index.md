@@ -20,7 +20,7 @@ The Frontend layer is responsible for managing user interactions and visualizing
   
 The interaction between these components is depicted in the **Sequence Diagram**, which shows how user inputs flow through the system, starting from the user interface, to equation evaluation, and ending with graph rendering.
 
-sections/03-design/diagrams/sequence_diagram.png
+![Sequence Diagram](diagrams/sequence_diagram.png)
 
 - Class Design
 
@@ -36,7 +36,7 @@ The **Class Diagram** represents the structure of the main components in the Gra
   
 - Range Class: Manages the input of the X and Y axis ranges for graph plotting.
 
-sections/03-design/diagrams/class_diagram.png
+![Class Diagram](diagrams/class_diagram.png)
 
 This Class Diagram visually breaks down the modular structure of the system, making it easier to understand how each part contributes to the overall functionality.
 
@@ -60,4 +60,4 @@ In this layered architecture:
 
 This separation of concerns ensures that the system is modular and easy to maintain. As shown in the **State Diagram**, the frontend moves through several states—WaitingForInput, ProcessingGraph, and DisplayGraph—to ensure the smooth handling of user actions and graph generation.
 
-sections/03-design/diagrams/state_diagram.png
+![State Diagram](diagrams/state_diagram.png)
