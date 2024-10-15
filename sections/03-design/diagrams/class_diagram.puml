@@ -1,0 +1,35 @@
+@startuml
+class User {
+  + addEquation()
+  + plotGraph()
+}
+
+class GraphTool {
+  + addEquation()
+  + plotGraph()
+  + validateEquations()
+}
+
+class Equation {
+  - equationString: String
+  + parseEquation()
+  + evaluateEquation(x: Float): Float
+}
+
+class Range {
+  + xMin: Float
+  + xMax: Float
+  + yMin: Float
+  + yMax: Float
+  + validateRange()
+}
+
+class Plotter {
+  + plot(data: List)
+}
+
+User --> GraphTool : interacts with
+GraphTool --> Equation : manages equations
+GraphTool --> Range : uses for x/y ranges
+GraphTool --> Plotter : sends data for plotting
+@enduml

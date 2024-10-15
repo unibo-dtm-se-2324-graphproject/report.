@@ -1,0 +1,18 @@
+@startuml
+actor User
+participant "GraphTool UI" as Frontend
+participant "Equation Parser" as Parser
+participant "Graph Plotter" as Plotter
+participant "Math.js Library" as MathLib
+participant "Plotly Library" as PlotlyLib
+
+User -> Frontend: Inputs equation and range
+Frontend -> Parser: Sends equation for parsing
+Parser -> MathLib: Evaluates equation
+Parser -> Frontend: Returns parsed equation
+
+Frontend -> Plotter: Sends parsed equation and range
+Plotter -> PlotlyLib: Plots graph
+PlotlyLib -> Plotter: Returns graph data
+Plotter -> Frontend: Displays graph to user
+@enduml

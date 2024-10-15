@@ -1,0 +1,17 @@
+@startuml
+package "Frontend" {
+  [GraphTool UI]
+  [Equation Parser]
+  [Graph Plotter]
+}
+
+package "External Libraries" {
+  [Math.js Library]
+  [Plotly Library]
+}
+
+[GraphTool UI] --> [Equation Parser] : Sends user input
+[Equation Parser] --> [Math.js Library] : Uses for equation evaluation
+[GraphTool UI] --> [Graph Plotter] : Sends equations and range
+[Graph Plotter] --> [Plotly Library] : Uses for graph rendering
+@enduml

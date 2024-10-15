@@ -1,0 +1,11 @@
+@startuml
+[*] --> Idle
+
+state Idle {
+  [*] --> WaitingForInput
+  WaitingForInput --> ProcessingGraph : User inputs equation and range
+  ProcessingGraph --> DisplayGraph : Graph plotted
+  DisplayGraph --> WaitingForInput : User inputs new equation or updates graph
+}
+
+@enduml
