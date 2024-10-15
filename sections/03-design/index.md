@@ -8,7 +8,7 @@ nav_order: 4
 
 The Graph Website follows a Layered Architecture, which provides clear separation between the frontend and backend components, allowing for scalability, maintainability, and flexibility. This architecture is visually represented in the **Component Diagram**, which shows how the various layers interact with each other.
 
-sections/03-design/diagrams/component_diagram.png
+![Components diagram] (sections/03-design/diagrams/component_diagram.png)
 
 **Frontend**
 
@@ -55,7 +55,7 @@ In this layered architecture:
 - Presentation Layer (Frontend): Manages everything the user sees and interacts with, from the GraphTool UI to the dynamic graphing capabilities using Plotly.js.
   
 - Business Logic Layer: Handles the logic behind processing equations and ranges. In the current implementation, most of this is handled in the frontend via JavaScript and Math.js.
-- 
+  
 - Data Access Layer (Backend): The backend layer processes incoming requests and serves files but can be extended for more complex tasks.
 
 This separation of concerns ensures that the system is modular and easy to maintain. As shown in the **State Diagram**, the frontend moves through several states—WaitingForInput, ProcessingGraph, and DisplayGraph—to ensure the smooth handling of user actions and graph generation.
