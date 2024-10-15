@@ -22,7 +22,7 @@ The interaction between these components is depicted in the **Sequence Diagram**
 
 ![Sequence Diagram](diagrams/sequence_diagram.png)
 
-- Class Design
+**Class Design**
 
 The **Class Diagram** represents the structure of the main components in the Graph Website. It shows how different classes interact to provide the core functionalities, such as handling user inputs, processing equations, and generating graphs.
 
