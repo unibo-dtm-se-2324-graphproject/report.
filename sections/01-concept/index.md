@@ -99,6 +99,10 @@ The website will be free to use, in line with many of the key players in the mar
 | **Taxes (15% on profit)** | €999       |
 | **Net Profit**            | **€5,661** |
 
+
+![Financial Overview Bar Chart](financial_overview_bar_chart.png)
+
+
 ---
 
 ## Market Release and Strategy: Focus on the Italian Market
