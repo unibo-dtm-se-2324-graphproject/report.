@@ -4,18 +4,32 @@ has_children: false
 nav_order: 2
 ---
 
-## Concept
+# Concept
 
-Introduction
+The Graph Website project is a website with a graphical user interface (GUI), which is an interactive platform designed to enable users to create, manipulate, and visualize graphs seamlessly. It is accessible through any browser, and users can generate one or two graphs at the same time, allowing for comparative analysis.
 
-The Graph Website is an interactive platform designed to enable users to create, manipulate, and visualize graphs seamlessly. Users can generate one or two graphs at the same time, allowing for comparative analysis and enhanced understanding of data relationships. This web application serves as a powerful tool for students, educators, and professionals seeking to visualize mathematical concepts and data sets effectively.
+---
 
+## Idea
 
-### Use Case 1: Plotting Mathematical Equations
+This website is developed for:
 
-**Actors**: User
+1. **Students** who want to have a better understanding, for example, of mathematical concepts.
+2. **Educators** who want to show visualizations while teaching, especially in the fields of mathematics, economics, and others.
 
-**Description**: Users can input mathematical equations and visualize their graphical representations.
+---
+
+## Features
+
+1. **Two input fields** where the user inputs mathematical equations.  
+2. **Plot Graph** feature to generate the corresponding graph.
+
+---
+
+## Use Case 1: Plotting Mathematical Equations
+
+- **Actors**: User  
+- **Description**: Users can input mathematical equations and visualize their graphical representations.
 
 **Main Flow**:
 1. The user opens the Graph Project web application.
@@ -23,87 +37,78 @@ The Graph Website is an interactive platform designed to enable users to create,
 3. The user specifies the range for the X and Y axes.
 4. The user submits the input to generate the graph.
 5. The application processes the input and displays the corresponding graph in real-time.
-6. The user has the option to modify the equation or the axis ranges to see changes reflected in the graph.
+6. The user has the option to modify the equation, or the axis ranges to see changes reflected in the graph.
 
-### Impact on Learning
+---
 
-- **Enhanced Understanding**: The visual representation of equations allows users to see abstract mathematical concepts in a concrete way, making complex functions easier to grasp.
+## Market Analysis
 
-- **Interactive Learning**: Users can experiment with equations and immediately see the results, promoting active learning through exploration.
+Before launching the website, a market analysis was conducted to understand the key competitors in the market:
 
-- **Accessibility**: The web application provides an easy-to-use interface, making advanced mathematical tools accessible to a broad audience, including high school and college students.
+- Desmos  
+- GeoGebra  
+- Cytoscape.js  
+- Graphistry  
+- Plotly/Dash  
 
-- **Critical Thinking**: Users are encouraged to analyze and interpret graphical data, enhancing their problem-solving skills.
+**User Base Comparison:**
 
-### Broader Educational Benefits
+![User Base Comparison of Graph Visualization Tools](user_base_comparison.png)
 
-The Graph Website not only serves individual users but can also be integrated into educational curricula. Teachers can utilize the platform to demonstrate mathematical concepts in a classroom setting, providing a practical application for theoretical knowledge. The interactive nature of the tool promotes engagement, allowing students to participate actively in their learning process.
 
-Overall, the Graph Website stands as a significant resource in the realm of education, promoting a deeper appreciation for mathematics through visual exploration and interactive learning experiences.
+---
 
-### Cost Analysis and Financial Model
+## Cost Analysis
 
-**1. Initial Development and Setup Costs**
-The initial phase of developing the Graph Website will involve costs for development, hosting, and maintenance. Here's a breakdown:
+The website will be free to use, in line with many of the key players in the market. Our **business model** is a **freemium, advertising-based model**, where revenue is generated through ad impressions and clicks.
 
--Website Development: €5,000 (for hiring developers and designers)
--Hosting Services: €50/month (~€600/year)
--Domain Name Registration: €20/year
--Marketing and Launch: €2,000 (advertisements, social media campaigns)
--Software and Tools: €1,000 (licenses, graph plotting tools, etc.)
--Total Initial Costs: €8,620
+### Revenue Estimation:
 
-**2. Ongoing Operational Costs**
-These will include costs associated with maintaining and improving the website, marketing, and any backend infrastructure:
+- **Daily Active Users (DAU)**: ~8,000 users (on average)  
+- **Monthly Ad Impressions**: 8,000 users × 3 ads × 30 days = **720,000**
+- **Average CPM (Cost per 1,000 impressions)**: €3  
+- **Click Through Rate (CTR)**: 4%  
+- **Estimated Clicks**: 28,800  
+- **Average CPC (Cost per Click)**: €0.30  
 
--Server Maintenance and Hosting: €600/year
--Customer Support: €1,200/year
--Marketing and Advertising: €1,500/year (continuous campaigns)
--Software Updates and Development: €3,000/year
--Total Ongoing Costs: €6,300/year
+**Monthly Revenue** = 28,800 × €0.30 = **€8,640/month**  
+**Yearly Revenue** = €8,640 × 12 = **€103,680**
 
-**Revenue Generation Model**
-I plan to generate revenue through advertisements:
+---
 
-**1. Advertisements**
-I will incorporate banner ads and sponsored content for relevant educational platforms and tools. This will generate an estimated revenue of:
+## Summary Table: Annual Costs
 
-Banner Ads: €1,000/month (~€12,000/year)
-Sponsored Content: €500/month (~€6,000/year)
-Total Estimated Revenue (Year 1): €18,000
+| Category                  | Estimated Annual Cost |
+|---------------------------|------------------------|
+| Backend Hosting           | €10,000               |
+| Cloud Storage             | €20,000               |
+| Domain                    | €20                   |
+| Development & Maintenance | €25,000              |
+| Marketing                 | €30,000               |
+| Customer Support          | €12,000               |
+| **Total Estimate**        | **€97,020**          |
 
-**Market Release and Strategy: Focus on the Italian Market**
+---
 
-The Graph Website will initially launch in Italy, targeting high school and university students, educators, and individuals with a strong interest in mathematics and data visualization. The Italian educational market is steadily growing, with increased emphasis on online learning tools and digital platforms.
+## Profit
 
-**Key Market Trends in Italy:**
+| Metric                    | Amount     |
+|---------------------------|------------|
+| **Total Revenue**         | €103,680   |
+| **Total Expenses**        | €97,020    |
+| **Taxes (15% on profit)** | €999       |
+| **Net Profit**            | **€5,661** |
 
-The Italian EdTech market is expanding as schools integrate more digital tools.
-Interest in personalized learning and interactive platforms has grown, especially post-pandemic.
-Government initiatives to digitize education provide opportunities for growth and partnerships.
+---
 
-**Competitor Analysis**
+## Market Release and Strategy: Focus on the Italian Market
 
-In the Italian market, several competitors offer similar services related to graph plotting and data visualization, but Graph Website differentiates itself with its user-friendly interface, integration of intelligent recommendations, and flexibility for visualizing multiple graphs.
+The Graph Website will initially launch in **Italy**, targeting high school and university students, educators, and individuals with a strong interest in mathematics and data visualization.
 
-**Key Competitors:**
+### Key Market Trends in Italy
 
-GeoGebra: A popular tool for mathematical graphing, primarily focused on educational institutions. However, it lacks features that provide intelligent graph recommendations or simultaneous multi-graph visualization.
-Desmos: An international competitor widely used for graph plotting but with limited personalization and recommendations for learning enhancement.
-Mathway: Offers math problem-solving features but is more focused on solutions rather than visualization and user interaction with graphs.
+- The **Italian EdTech market is expanding** as schools integrate more digital tools.
+- There's growing **interest in personalized learning** and interactive platforms, especially post-pandemic.
+- **Government initiatives** to digitize education are providing more opportunities for growth and partnerships.
 
-**Competitive Advantages:**
-
-Multi-Graph Visualization: Users can create and visualize multiple graphs simultaneously, offering more flexibility compared to competitors.
-Scalability: The system is designed with future scalability, making it ideal for expanding beyond Italy into other markets with minimal adjustments.
-Investments Needed
-To fully develop and launch the platform, we anticipate needing a total initial investment of around €10,000. This would cover initial development, marketing campaigns, and server infrastructure.
-
-I also anticipate a secondary investment of €5,000 in the second year to scale the platform and enhance features, including adding user authentication and scaling the API to support more users.
-
-**Break-Even Analysis**
-With the cost structure and projected revenue, it is expected to break even by month 10 of operation, with positive cash flow by the end of Year 1.
-
-Total Revenue (Year 1): €18,000
-Total Ongoing Costs (Year 1): €6,300
-Break-Even Month: 10th Month
+---
