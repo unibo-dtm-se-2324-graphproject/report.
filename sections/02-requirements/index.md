@@ -13,8 +13,8 @@ nav_order: 3
     - **Acceptance Criteria**: The graphs displayed are in different colors to allow better comparison.
 - **Static Graph Updates**: Users to enter a new equation and visualize different graphs s/he should refresh the browser page. 
     - **Acceptance Criteria**: Changes made to the input fields should require a submit action to generate and display the updated graphs.
--**User Interface**:The application must provide an intuitive and user-friendly interface for both graph input and visualization.
-    - **Acceptance Criteria**:  Users should find the interface straightforward.
+- **User Interface**: The application must provide an intuitive and user-friendly interface for both graph input and visualization.
+    - **Acceptance Criteria** :  Users should find the interface straightforward.
 
 ## Non-Functional Requirements
 
